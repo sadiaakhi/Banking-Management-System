@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #3c0032;
+
+}
+
+
+.bg{
+    height: 100%;
+    width: 100%;
+    
+    background-color: #3c0032;
+    background-size: cover;
+    position: absolute;   
+     
+}
+
+.white-box{
+
+    margin:  6% auto;
+    height: 500px;
+    width: 300px;
+    padding: 40px;
+    opacity: 90%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    filter: drop-shadow(500px);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.regi-head{
+    
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: "verdana";
+    font-weight: 1000;  
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5% auto;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+    font-family: "verdana";
+    font-size: 13px;
+    color: #000000;
+}
+
+.remember-me{
+    
+    margin: 9% auto;
+    bottom: 3px;
+    font-size: 11px;
+    font-family: "verdana";
+    opacity: 90%;
+    color: #000000;
+    position: relative;  
+}
+
+.button{
+    margin: 35% auto;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #50D890;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "verdana";
+    font-weight: 500;
+    
+}
+.button:hover {
+    opacity: 0.8;
+  }
